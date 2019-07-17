@@ -31,6 +31,25 @@ some approaches that can help ease the nerves. Here are some
 suggestions to experiment with when you're practicing for a coding
 interview.
 
+## Resources
+
+The default test is set up to use Mocha, and the assert module from
+Node.js. If you want something else, you can always add it to
+`package.json` and run a new `$ npm update`.
+
+The most useful documentation to have open in a browser is:
+
+- An overview reminder of the [Mocha test execution model and "getting
+  started" example](https://mochajs.org/#getting-started)
+
+- The [assertion syntax from the Node.js assert
+  module](https://nodejs.org/api/assert.html)
+
+- A sample of the test output from a working solution is in the file
+  [vending_tests.pdf] - these are just the test names, but should give
+  a useful hint if you get jammed up trying to work out what's a good
+  sequence of tests (and increments...see below...).
+
 ### Tiny increments
 
 There's a real morale boost that comes from making small, but tangible
@@ -92,16 +111,3 @@ specification. The important nouns stand out as being obvious moving
 parts of your solution. Draw a sketchy boxes-and-lines diagram of
 these. UML isn't necessary, just an outline.
 
-## Resources
-
-The default test is set up to use Mocha, and the assert module from
-Node.js. If you want something else, you can always add it to
-`package.json` and run a new `$ npm update`.
-
-The most useful documentation to have open in a browser is:
-
-- An overview reminder of the [Mocha test execution model and "getting
-  started" example](https://mochajs.org/#getting-started)
-
-- The [assertion syntax from the Node.js assert
-  module](https://nodejs.org/api/assert.html)
