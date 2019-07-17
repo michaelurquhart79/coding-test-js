@@ -2,6 +2,8 @@ var VendingMachine = function () {
     this.balance = 0;
 };
 
+// TEST
+
 VendingMachine.prototype.getBalance = function () {
     return this.balance;
 };
